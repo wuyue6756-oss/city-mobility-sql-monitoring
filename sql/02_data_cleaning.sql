@@ -9,3 +9,5 @@ WHERE trip_distance > 0
   AND DOLocationID IS NOT NULL
   AND tpep_pickup_datetime IS NOT NULL
   AND tpep_dropoff_datetime IS NOT NULL;
+  AND tpep_pickup_datetime >= '2025-11-01'
+  AND tpep_pickup_datetime < '2025-12-01';
