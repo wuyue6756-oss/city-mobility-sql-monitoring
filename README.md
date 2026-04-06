@@ -1,5 +1,15 @@
 # city-mobility-sql-monitoring
 基于城市出行数据的经营监控与异常预警 SQL 项目，包含指标体系、数据清洗、监控查询与结果展示。
+## 1. Problem Statement
+## 2. Methodology
+## 3. Dataset Introduction
+## 4. Data Preparation
+## 5. Analysis Results
+## 6. Key Findings
+## 7. Repository Structure
+## 8. How to Run
+## 9. Future Improvements
+
 ## 1. 项目背景
 传统出租车业务经营分析依赖人工统计，效率低、口径不统一；营收异常只能事后复盘，无法提前预警；运力投放缺乏数据支撑，容易造成资源浪费。本项目基于公开城市出租车订单数据，模拟企业经营分析场景，围绕订单量、总收入、客单价、区域热度与异常日期识别等问题，构建一个完整的 SQL 分析项目。搭建了自动化的经营监控框架，将核心指标统计效率提升 80%；基于 Z-score 搭建异常预警模型，可提前识别高异常日期；定位高贡献区域，为运力投放提供数据支撑，可预期提升核心区域营收。
 
